@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:lecturer_name",
+ "creation": "2024-10-28 17:31:46.562412",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lecturer_name",
+  "department",
+  "date_of_joining",
+  "active_status",
+  "column_break_kpnx",
+  "email",
+  "phone_number",
+  "academic_degree",
+  "specialization"
+ ],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department",
+   "options": "Sections"
+  },
+  {
+   "fieldname": "specialization",
+   "fieldtype": "Data",
+   "label": "Specialization"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date of Joining"
+  },
+  {
+   "default": "0",
+   "fieldname": "active_status",
+   "fieldtype": "Check",
+   "label": "Active Status"
+  },
+  {
+   "fieldname": "academic_degree",
+   "fieldtype": "Select",
+   "label": "academic degree",
+   "options": "Bachelor\nMaster\nPhD"
+  },
+  {
+   "fieldname": "lecturer_name",
+   "fieldtype": "Data",
+   "label": "Lecturer Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_kpnx",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-02 19:11:30.926744",
+ "modified_by": "Administrator",
+ "module": "EduGov",
+ "name": "Lecturer",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

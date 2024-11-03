@@ -1,0 +1,160 @@
+{
+ "app": "edugov",
+ "charts": [],
+ "content": "[{\"id\":\"EYigGpetSq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EduGov</span>\",\"col\":12}},{\"id\":\"ZM19TyIO89\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"6F4xQgQE4n\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lecturer\",\"col\":3}},{\"id\":\"FEi_XfNV99\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Times\",\"col\":3}},{\"id\":\"1hV3t_JsV0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sections\",\"col\":3}},{\"id\":\"-MYe6iwgtP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"University\",\"col\":3}},{\"id\":\"Mip1ZkxpGX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subjects\",\"col\":3}},{\"id\":\"EAI2vcf5iW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lecturer Workplace\",\"col\":4}},{\"id\":\"U6mdIzEjz7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"7spwirvwIx\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Lecturer\",\"col\":6}},{\"id\":\"1BGOrjQs5N\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"University\",\"col\":6}},{\"id\":\"5Z30j0O5Ol\",\"type\":\"card\",\"data\":{\"card_name\":\"EduGov\",\"col\":5}}]",
+ "creation": "2024-11-03 20:35:48.418980",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "education",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "EduGov",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EduGov",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lecturer",
+   "link_count": 0,
+   "link_to": "Lecturer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sections",
+   "link_count": 0,
+   "link_to": "Sections",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Times",
+   "link_count": 0,
+   "link_to": "Times",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "University",
+   "link_count": 0,
+   "link_to": "University",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subjects",
+   "link_count": 0,
+   "link_to": "Subjects",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lecturer Workplace",
+   "link_count": 0,
+   "link_to": "Lecturer Workplace",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-11-03 21:15:49.562871",
+ "modified_by": "Administrator",
+ "module": "EduGov",
+ "name": "EduGov",
+ "number_cards": [
+  {
+   "label": "Lecturer",
+   "number_card_name": "Lecturer"
+  },
+  {
+   "label": "University",
+   "number_card_name": "University"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Lecturer",
+   "link_to": "Lecturer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Times",
+   "link_to": "Times",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Sections",
+   "link_to": "Sections",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "University",
+   "link_to": "University",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Subjects",
+   "link_to": "Subjects",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Lecturer Workplace",
+   "link_to": "Lecturer Workplace",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "EduGov",
+ "type": "Workspace"
+}

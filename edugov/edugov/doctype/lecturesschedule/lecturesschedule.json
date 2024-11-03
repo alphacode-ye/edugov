@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-01 19:33:14.486573",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subject_name",
+  "day",
+  "work_start_time",
+  "work_end_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Subject Name",
+   "options": "Subjects"
+  },
+  {
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Day",
+   "options": "\u0627\u0644\u0633\u0628\u062a\n\u0627\u0644\u0623\u062d\u062f\n\u0627\u0644\u0627\u062b\u0646\u064a\u0646\n\u0627\u0644\u062b\u0644\u0627\u062b\u0627\u0621\n\u0627\u0644\u0623\u0631\u0628\u0639\u0627\u0621\n\u0627\u0644\u062e\u0645\u064a\u0633"
+  },
+  {
+   "fieldname": "work_start_time",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Work Start Time",
+   "options": "Times"
+  },
+  {
+   "fieldname": "work_end_time",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Work End Time",
+   "options": "Times"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-01 19:52:58.831668",
+ "modified_by": "Administrator",
+ "module": "EduGov",
+ "name": "LecturesSchedule",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

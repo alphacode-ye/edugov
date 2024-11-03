@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-28 18:03:28.593495",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lecturer",
+  "column_break_dheg",
+  "university",
+  "column_break_kida",
+  "academic_degree",
+  "section_break_qhbg",
+  "lecturesschedule"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_dheg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kida",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "lecturer.academic_degree",
+   "fieldname": "academic_degree",
+   "fieldtype": "Select",
+   "label": "academic degree",
+   "options": "Bachelor\nMaster\nPhD"
+  },
+  {
+   "fieldname": "section_break_qhbg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lecturesschedule",
+   "fieldtype": "Table",
+   "label": "LecturesSchedule",
+   "options": "LecturesSchedule"
+  },
+  {
+   "fieldname": "lecturer",
+   "fieldtype": "Link",
+   "label": "Lecturer",
+   "options": "Lecturer"
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "label": "University",
+   "options": "University"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-01 21:21:14.224656",
+ "modified_by": "Administrator",
+ "module": "EduGov",
+ "name": "Lecturer Workplace",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
